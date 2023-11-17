@@ -667,7 +667,47 @@
           "lib/netcoreapp2.1/Markdig.dll": {}
         }
       },
-      "Microsoft.AspNet.SignalR/2.4.2": {},
+      "Microsoft.AspNet.SignalR/2.4.2": {
+        "dependencies": {
+          "Microsoft.AspNet.SignalR.JS": "2.4.2",
+          "Microsoft.AspNet.SignalR.SystemWeb": "2.4.2"
+        }
+      },
+      "Microsoft.AspNet.SignalR.Core/2.4.2": {
+        "dependencies": {
+          "Microsoft.Owin.Security": "2.1.0",
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "runtime": {
+          "lib/net45/Microsoft.AspNet.SignalR.Core.dll": {
+            "assemblyVersion": "2.4.2.0",
+            "fileVersion": "2.4.2.21106"
+          }
+        },
+        "compile": {
+          "lib/net45/Microsoft.AspNet.SignalR.Core.dll": {}
+        }
+      },
+      "Microsoft.AspNet.SignalR.JS/2.4.2": {
+        "dependencies": {
+          "jQuery": "3.0.0"
+        }
+      },
+      "Microsoft.AspNet.SignalR.SystemWeb/2.4.2": {
+        "dependencies": {
+          "Microsoft.AspNet.SignalR.Core": "2.4.2",
+          "Microsoft.Owin.Host.SystemWeb": "2.1.0"
+        },
+        "runtime": {
+          "lib/net45/Microsoft.AspNet.SignalR.SystemWeb.dll": {
+            "assemblyVersion": "2.4.2.0",
+            "fileVersion": "2.4.2.21106"
+          }
+        },
+        "compile": {
+          "lib/net45/Microsoft.AspNet.SignalR.SystemWeb.dll": {}
+        }
+      },
       "Microsoft.AspNet.WebApi.Client/5.2.7": {
         "dependencies": {
           "Newtonsoft.Json": "12.0.2",
@@ -1452,6 +1492,50 @@
       },
       "Microsoft.NETCore.Platforms/3.1.0": {},
       "Microsoft.NETCore.Targets/1.1.3": {},
+      "Microsoft.Owin/2.1.0": {
+        "dependencies": {
+          "Owin": "1.0.0"
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.30113.529"
+          }
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.dll": {}
+        }
+      },
+      "Microsoft.Owin.Host.SystemWeb/2.1.0": {
+        "dependencies": {
+          "Microsoft.Owin": "2.1.0",
+          "Owin": "1.0.0"
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Host.SystemWeb.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.30113.529"
+          }
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Host.SystemWeb.dll": {}
+        }
+      },
+      "Microsoft.Owin.Security/2.1.0": {
+        "dependencies": {
+          "Microsoft.Owin": "2.1.0",
+          "Owin": "1.0.0"
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Security.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.30113.529"
+          }
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Security.dll": {}
+        }
+      },
       "Microsoft.SyndicationFeed.ReaderWriter/1.0.2": {
         "dependencies": {
           "System.Globalization": "4.3.0",
@@ -1734,6 +1818,17 @@
         },
         "compile": {
           "lib/netstandard2.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {}
+        }
+      },
+      "Owin/1.0.0": {
+        "runtime": {
+          "lib/net40/Owin.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/net40/Owin.dll": {}
         }
       },
       "Pomelo.EntityFrameworkCore.MySql/3.0.1": {
@@ -5192,6 +5287,27 @@
       "path": "microsoft.aspnet.signalr/2.4.2",
       "hashPath": "microsoft.aspnet.signalr.2.4.2.nupkg.sha512"
     },
+    "Microsoft.AspNet.SignalR.Core/2.4.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mpkCnN9sF4zBrE6Gkz7rmJL/as4JMGZDCV/dfcUh6mDwFdbGGYWBzchQOW1mWCx/3EBzHK+KkBr8+WGwTDejwg==",
+      "path": "microsoft.aspnet.signalr.core/2.4.2",
+      "hashPath": "microsoft.aspnet.signalr.core.2.4.2.nupkg.sha512"
+    },
+    "Microsoft.AspNet.SignalR.JS/2.4.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sqzffcIbMGPd3BgaNUsqvxnBvm3cKi8LXqzcGe+8KPHxZ/U4O0uDJOKJS6HN9c4xQmVUu7C0G4iNjO3jnd7yLg==",
+      "path": "microsoft.aspnet.signalr.js/2.4.2",
+      "hashPath": "microsoft.aspnet.signalr.js.2.4.2.nupkg.sha512"
+    },
+    "Microsoft.AspNet.SignalR.SystemWeb/2.4.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VzMfXFIDsQwWXIXJZlMkOSTW6DnjZ4ZgMcXM4ihbg014DgAezrsNG9aNcsIjNSyDWvMG7iT0oAREjmB+Dvu1Cw==",
+      "path": "microsoft.aspnet.signalr.systemweb/2.4.2",
+      "hashPath": "microsoft.aspnet.signalr.systemweb.2.4.2.nupkg.sha512"
+    },
     "Microsoft.AspNet.WebApi.Client/5.2.7": {
       "type": "package",
       "serviceable": true,
@@ -5682,6 +5798,27 @@
       "path": "microsoft.netcore.targets/1.1.3",
       "hashPath": "microsoft.netcore.targets.1.1.3.nupkg.sha512"
     },
+    "Microsoft.Owin/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lk0kK64mlmcmtWX8YOYkZsnZKDoGEzMZhe8e1bcP+FFcgD4f2QfKwvu5Z8Bh8WS0VO7Rgk+DJ0hwW0k+S/UGMg==",
+      "path": "microsoft.owin/2.1.0",
+      "hashPath": "microsoft.owin.2.1.0.nupkg.sha512"
+    },
+    "Microsoft.Owin.Host.SystemWeb/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-S+YOPgtQuXlKGh1OZCVzvmz++2ibNeACzDlMpeXFN1QBUf9l+gstfV0f5hTbhmkDBE8LrSCBWu+9Rrte+ivNhg==",
+      "path": "microsoft.owin.host.systemweb/2.1.0",
+      "hashPath": "microsoft.owin.host.systemweb.2.1.0.nupkg.sha512"
+    },
+    "Microsoft.Owin.Security/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4n1V0p+O6W1L0xHUM8Cjp2Y+MmmUkiCZv6PvRNIDCJD9zlerBJa2HECo9lUiWC+KuasQJ3QxB1FmipNBxdXXIQ==",
+      "path": "microsoft.owin.security/2.1.0",
+      "hashPath": "microsoft.owin.security.2.1.0.nupkg.sha512"
+    },
     "Microsoft.SyndicationFeed.ReaderWriter/1.0.2": {
       "type": "package",
       "serviceable": true,
@@ -5807,6 +5944,13 @@
       "sha512": "sha512-RoT3YXmYpjGTPqYnENYAnKTgTe0/8IIDWpJ5JC+R/KgqS0/+XZDFMY0mV5yzQzjVt1rj/KChQ4ta7WLzqnI2/g==",
       "path": "npgsql.entityframeworkcore.postgresql/3.1.0",
       "hashPath": "npgsql.entityframeworkcore.postgresql.3.1.0.nupkg.sha512"
+    },
+    "Owin/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OseTFniKmyp76mEzOBwIKGBRS5eMoYNkMKaMXOpxx9jv88+b6mh1rSaw43vjBOItNhaLFG3d0a20PfHyibH5sw==",
+      "path": "owin/1.0.0",
+      "hashPath": "owin.1.0.0.nupkg.sha512"
     },
     "Pomelo.EntityFrameworkCore.MySql/3.0.1": {
       "type": "package",

@@ -1,9 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
-
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
   </PropertyGroup>
-
   <ItemGroup>
     <Folder Include="wwwroot\data\" />
     <Folder Include="Models\" />
@@ -25,12 +23,12 @@
     <PackageReference Include="EJS" Version="1.0.0" />
     <PackageReference Include="Halibut" Version="4.4.4" />
     <PackageReference Include="itext7" Version="7.1.14" />
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
     <PackageReference Include="Microsoft.AspNet.SignalR" Version="2.4.2" />
     <PackageReference Include="ServiceStack" Version="5.9.0" />
     <PackageReference Include="Svg" Version="3.2.3" />
-    <PackageReference Include="System.Text.Encodings.Web" Version="4.5.1" />
     <PackageReference Include="TinyMCE" Version="4.8.2" />
     <PackageReference Include="Wire" Version="1.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.0" />
+    <PackageReference Include="System.Text.Encodings.Web" Version="8.0.0" />
   </ItemGroup>
 </Project>

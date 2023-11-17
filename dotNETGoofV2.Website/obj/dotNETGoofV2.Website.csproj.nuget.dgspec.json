@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mattbrown/Desktop/SME_Work/dotNET-goof-v2/dotNETGoofV2.Website/dotNETGoofV2.Website.csproj": {}
+    "/Users/stephen/Downloads/dotNET-goof-v2/dotNETGoofV2.Website/dotNETGoofV2.Website.csproj": {}
   },
   "projects": {
-    "/Users/mattbrown/Desktop/SME_Work/dotNET-goof-v2/dotNETGoofV2.Website/dotNETGoofV2.Website.csproj": {
+    "/Users/stephen/Downloads/dotNET-goof-v2/dotNETGoofV2.Website/dotNETGoofV2.Website.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mattbrown/Desktop/SME_Work/dotNET-goof-v2/dotNETGoofV2.Website/dotNETGoofV2.Website.csproj",
+        "projectUniqueName": "/Users/stephen/Downloads/dotNET-goof-v2/dotNETGoofV2.Website/dotNETGoofV2.Website.csproj",
         "projectName": "dotNETGoofV2.Website",
-        "projectPath": "/Users/mattbrown/Desktop/SME_Work/dotNET-goof-v2/dotNETGoofV2.Website/dotNETGoofV2.Website.csproj",
-        "packagesPath": "/Users/mattbrown/.nuget/packages/",
-        "outputPath": "/Users/mattbrown/Desktop/SME_Work/dotNET-goof-v2/dotNETGoofV2.Website/obj/",
+        "projectPath": "/Users/stephen/Downloads/dotNET-goof-v2/dotNETGoofV2.Website/dotNETGoofV2.Website.csproj",
+        "packagesPath": "/Users/stephen/.nuget/packages/",
+        "outputPath": "/Users/stephen/Downloads/dotNET-goof-v2/dotNETGoofV2.Website/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/mattbrown/.nuget/NuGet/NuGet.Config"
+          "/Users/stephen/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -35,8 +35,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Blogifier.Core": {
               "target": "Package",
@@ -60,7 +60,7 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[5.0.2, )"
+              "version": "[8.0.0, )"
             },
             "ServiceStack": {
               "target": "Package",
@@ -72,7 +72,7 @@
             },
             "System.Text.Encodings.Web": {
               "target": "Package",
-              "version": "[4.5.1, )"
+              "version": "[8.0.0, )"
             },
             "TinyMCE": {
               "target": "Package",
@@ -97,7 +97,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -109,7 +110,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/stephen/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
